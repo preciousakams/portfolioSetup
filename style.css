@@ -11,7 +11,7 @@
   flex-direction: row;
 }
 
-.navItems ul {
+.navItems i {
   display: flex;
   justify-content: flex-end;
   width: 100%;
@@ -29,6 +29,10 @@
   word-break: keep-all;
 }
 
+.headline h1 span {
+  color: #36b37e;
+}
+
 #headline_text {
   width: 290px;
   border: hidden;
@@ -39,10 +43,6 @@
 .socials {
   display: flex;
   justify-content: center;
-}
-
-.socials a {
-  margin-right: 3%;
 }
 
 .angle_down {
