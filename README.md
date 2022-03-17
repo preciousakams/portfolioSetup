@@ -1,7 +1,5 @@
-# Hello Microverse Project
+# Portfolio: setup and mobile version skeleton Project
 ***
-Portfolio: setup and mobile version skeleton
-
 ## Built With
 * HTML/CSS
 * Node Js
