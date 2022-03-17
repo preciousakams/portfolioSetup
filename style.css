@@ -1,0 +1,52 @@
+/* stylelint-disable no-missing-end-of-source-newline */
+.container {
+  color: #172b4d;
+  width: 43%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.navItems {
+  display: flex;
+  flex-direction: row;
+}
+
+.navItems ul {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.headline {
+  background-image: url(icons/header-12.png);
+  background-repeat: no-repeat;
+}
+
+.headline h1 {
+  width: 290px;
+  border: hidden;
+  text-align: center;
+  word-break: keep-all;
+}
+
+#headline_text {
+  width: 290px;
+  border: hidden;
+  text-align: center;
+  word-break: keep-all;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+}
+
+.socials a {
+  margin-right: 3%;
+}
+
+.angle_down {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
