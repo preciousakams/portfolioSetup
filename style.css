@@ -9,9 +9,14 @@
 .navItems {
   display: flex;
   flex-direction: row;
+  text-decoration: none;
 }
 
-.navItems i {
+.navItems .logo {
+  text-decoration: none;
+}
+
+.navItems .bars {
   display: flex;
   justify-content: flex-end;
   width: 100%;
@@ -23,30 +28,39 @@
 }
 
 .headline h1 {
-  width: 290px;
   border: hidden;
   text-align: center;
   word-break: keep-all;
+  margin-top: 5px;
 }
 
-.headline h1 span {
+.headline span {
   color: #36b37e;
+  text-align: center;
+  word-break: keep-all;
 }
 
 #headline_text {
-  width: 290px;
+  width: 327px;
   border: hidden;
   text-align: center;
   word-break: keep-all;
+  height: 90px;
+  left: 24px;
+  top: 314px;
 }
 
-.socials {
+menu {
   display: flex;
   justify-content: center;
+  list-style: none;
+}
+
+menu li {
+  padding-right: 16px;
 }
 
 .angle_down {
   display: flex;
   justify-content: center;
-  margin-top: 5%;
 }
