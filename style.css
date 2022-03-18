@@ -1,15 +1,37 @@
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+/* stylelint-disable length-zero-no-unit */
 /* stylelint-disable no-missing-end-of-source-newline */
 .container {
-  color: #172b4d;
-  width: 350px;
-  margin-left: 5%;
-  margin-right: 5%;
+  position: relative;
+  width: 375px;
+  height: 6715px;
+}
+
+.headline {
+  background-image: url(icons/header-illsutration-mobile@2x.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 375px;
+  height: 726px;
+  left: 0px;
+  top: 92px;
 }
 
 .navItems {
-  display: flex;
-  flex-direction: row;
-  text-decoration: none;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+}
+
+.navItems a {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 44px;
+  bottom: 0px;
 }
 
 .navItems .logo {
@@ -22,45 +44,62 @@
   width: 100%;
 }
 
-.headline {
-  background-image: url(icons/header-12.png);
-  background-repeat: no-repeat;
-}
-
-.headline h1 {
-  border: hidden;
+.heading {
+  position: static;
+  width: 327px;
+  height: 192px;
+  left: 24px;
+  top: 64px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
   text-align: center;
-  word-break: keep-all;
-  margin-top: 5px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 50px 0px;
 }
 
-.headline span {
+.black {
+  color: #172b4d;
+}
+
+.green {
   color: #36b37e;
-  text-align: center;
-  word-break: keep-all;
 }
 
 #headline_text {
+  height: 164px;
   width: 327px;
-  border: hidden;
-  text-align: center;
-  word-break: keep-all;
-  height: 90px;
   left: 24px;
   top: 314px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #172b4d;
 }
 
-menu {
+.socials {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   list-style: none;
+  position: static;
+  width: 170.17px;
+  height: 20px;
+  left: 102.42px;
+  top: 536px;
+  order: 2;
+  flex-grow: 0;
+  margin-right: 50px;
 }
 
-menu li {
-  padding-right: 16px;
-}
-
-.angle_down {
-  display: flex;
-  justify-content: center;
+.angle-down {
+  order: 3;
+  flex-grow: 0;
+  margin: 58px 0px;
 }
