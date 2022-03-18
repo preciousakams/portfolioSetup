@@ -38,6 +38,11 @@
 
 .navItems .logo {
   text-decoration: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .navItems .bars {
@@ -252,4 +257,21 @@
   font-size: 17px;
   line-height: 24px;
   color: #fff;
+}
+
+.about-me {
+  
+/* Auto layout */
+background-color: #36b37f;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 64px 24px;
+
+position: absolute;
+width: 375px;
+height: 1625px;
+left: 0px;
+top: 3927px;
+
 }
