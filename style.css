@@ -4,8 +4,6 @@
 .container {
   position: relative;
   width: 375px;
-  height: 6715px;
-  background: #fff;
 }
 
 .headline {
@@ -269,10 +267,6 @@
   color: #fff;
 }
 
-/* .btn:hover {
-  background-color: #fff;
-} */
-
 .about-header {
   display: flex;
   flex-direction: column;
@@ -414,7 +408,7 @@
   padding: 0px;
   position: absolute;
   width: 327px;
-  height: 144px;
+  height: 96px;
   left: calc(50% - 327px / 2);
 }
 
@@ -425,16 +419,16 @@
   padding: 0px;
   position: absolute;
   width: 327px;
-  height: 144px;
+  height: 96px;
   left: calc(50% - 327px / 2);
 }
 
 .about-me-details ul {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   padding: 0px;
-  justify-content: space-around;
   position: static;
   width: 271px;
   height: 40px;
@@ -528,47 +522,78 @@
   color: #36b37e;
 }
 
-.about-me-frameworks ul {
+.about-me-frameworks #ul-1 {
   list-style-type: none;
-  justify-content: space-around;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   padding: 0px;
   position: static;
   width: 266px;
-  height: 88px;
-  left: 30.5px;
-  top: 56px;
+  height: 40px;
+  left: calc(50% - 266px / 2);
+  top: 0px;
   flex: none;
-  order: 1;
+  order: 0;
   flex-grow: 0;
-  margin: 24px 0px;
+  margin: 8px 0px;
 }
 
-.about-me-skills ul {
-  list-style-type: none;
-  justify-content: space-around;
+.about-me-frameworks #ul-2 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  list-style-type: none;
   align-items: center;
   padding: 0px;
   position: static;
-  width: 303px;
-  height: 88px;
-  left: 12px;
-  top: 56px;
+  width: 172px;
+  height: 40px;
+  left: calc(50% - 172px / 2);
+  top: 48px;
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 24px 0px;
+  margin: 8px 0px;
+}
+
+.about-me-skills #ul-3 {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  position: static;
+  /* width: 303px; */
+  height: 40px;
+  left: calc(50% - 303px / 2);
+  top: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
+  background-color: #36b37e;
+}
+
+.about-me-skills #ul-4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  position: static;
+  width: 77px;
+  height: 40px;
+  left: calc(50% - 77px / 2);
+  top: 48px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 8px 0px;
 }
 
 .about-me-frameworks ul #b {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 12px;
   position: static;
   background: #fff;
   border-radius: 8px;
@@ -582,13 +607,13 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #36b37e;
+  margin: 0px 8px;
 }
 
 .about-me-frameworks ul #r-on-rails {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 12px;
   position: static;
   background: #fff;
   border-radius: 8px;
@@ -602,13 +627,13 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #36b37e;
+  margin: 0px 8px;
 }
 
 .about-me-frameworks ul #r-spec {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 12px;
   position: static;
   background: #fff;
   border-radius: 8px;
@@ -622,13 +647,13 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #36b37e;
+  margin: 0px 8px;
 }
 
 .about-me-frameworks ul #cap {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 12px;
   position: static;
   background: #fff;
   border-radius: 8px;
@@ -642,13 +667,13 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #36b37e;
+  margin: 0px 8px;
 }
 
 .about-me-frameworks ul #sele {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 12px;
   position: static;
   background: #fff;
   border-radius: 8px;
@@ -662,13 +687,13 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #36b37e;
+  margin: 0px 8px;
 }
 
 .about-me-skills ul #codekit {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 12px;
   position: static;
   background: #fff;
   border-radius: 8px;
@@ -682,13 +707,13 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #36b37e;
+  margin: 0px 8px;
 }
 
 .about-me-skills ul #github {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 12px;
   position: static;
   background: #fff;
   border-radius: 8px;
@@ -702,13 +727,13 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #36b37e;
+  margin: 0px 8px;
 }
 
 .about-me-skills ul #codepen {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 12px;
   position: static;
   background: #fff;
   border-radius: 8px;
@@ -722,12 +747,44 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #36b37e;
+  margin: 0px 8px;
 }
 
-.about-me-skills ul {
-  
+.about-me-skills ul #gitlab {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: static;
+  background: #fff;
+  border-radius: 8px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #36b37e;
+  margin-right: 28px;
 }
 
-.about-me-skills ul {
-  
+.about-me-skills ul #terminal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: static;
+  background: #fff;
+  border-radius: 8px;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  margin: 0px 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
 }
