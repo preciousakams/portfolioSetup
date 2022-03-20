@@ -339,10 +339,9 @@
   text-align: center;
   letter-spacing: 0.03em;
   flex-direction: row;
-  align-items: center;
   padding: 12px;
-  color: #FFFFFF;
-  background: #36B37F;
+  color: #fff;
+  background: #36b37f;
   border: 0;
   border-radius: 4px;
   flex: none;
@@ -563,7 +562,6 @@
   align-items: center;
   padding: 0px;
   position: static;
-  /* width: 303px; */
   height: 40px;
   left: calc(50% - 303px / 2);
   top: 0px;
