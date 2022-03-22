@@ -4,7 +4,7 @@
 .container {
   position: relative;
   width: 375px;
-  height: 6715px;
+  margin: 0px;
 }
 
 .headline {
