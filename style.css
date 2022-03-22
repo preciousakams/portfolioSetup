@@ -113,9 +113,9 @@
   padding: 64px 0;
   position: absolute;
   width: 379px;
-  left: 0;
-  top: 708px;
-  margin: 20% 0%;
+  left: -4px;
+  top: 696px;
+  height: 3347px;
 }
 
 #recent-work-caption {
@@ -130,6 +130,7 @@
   width: 327px;
   height: 97px;
   left: 0;
+  top: 0;
   display: flex;
   align-items: center;
   flex: none;
@@ -792,4 +793,17 @@
 .btn-anime:active {
   background-color: #008552;
   transform: translateY(4px);
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 0;
+  position: absolute;
+  width: 375px;
+  height: 1625px;
+  left: 0;
+  top: 3927px;
+  margin: 75% 0;
 }
