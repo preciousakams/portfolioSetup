@@ -46,7 +46,7 @@
   width: 100%;
 }
 
-.header {
+.heading {
   position: static;
   width: 327px;
   height: 192px;
@@ -807,3 +807,4 @@
   top: 3927px;
   margin: 75% 0;
 }
+
