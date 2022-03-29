@@ -788,6 +788,7 @@
 
 .btn-anime:hover {
   background-color: #36b37f;
+  cursor: pointer;
 }
 
 .btn-anime:active {
