@@ -235,6 +235,13 @@
   order: 1;
   flex-grow: 0;
   margin: 0 8px;
+  font-family: 'Inter', serif, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #3a4a42;
 }
 
 .btn-div {
