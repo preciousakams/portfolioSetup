@@ -2,7 +2,6 @@
 ***
 ## Built With
 * HTML/CSS
-* Node Js
 
 ## Getting Started
 ***
