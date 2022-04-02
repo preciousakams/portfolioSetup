@@ -15,16 +15,19 @@
            <nav class="navItems">
             <a class="logo" href="">Welcome</a>
             <a class="bars"> <i class="fa-solid fa-bars"></i> </a>
-           </nav>
+            <a class="port-nav" href="">Portfolio</a>
+            <a class="about-nav" href="">About</a>
+            <a class="contact-nav" href="">Contact</a>
+        </nav>
        </header>
        
     <section class="headline">
-           <h2 class="black heading">Hey there.I'm <br> Precious <br>
+           <h2 class="black heading">Hey there.I'm Precious <br>
                <span class="green"> I'm a software developer</span> 
             </h2>
-           <p id="headline_text"> I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+           <h3 class="headline_text"> I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
             do not hestiate to contact me.
-           </p>
+           </h3>
 
              <ul class="socials">
                <li>
@@ -55,11 +58,12 @@
             </ul>
            <a class="angle-down" href=""><img src="icons/Disabled.png" alt=""></a>
        </section>
-       <div class="grid-container">
+       
        <section class="recent-work">
            <h2 id="recent-work-caption">My Recent <br>Works</h2>
            <img id="indicator" src="icons/Indicator.png" alt="indicator line">
-
+           <div class="grid-container">
+           <div class="flex-wrapper">
                 <div class="flex-item">
                     <div class="project-image-div"></div>
                     <div class="project-div">
@@ -147,11 +151,12 @@
                         <div class="btn-div"><button class="btn btn-anime"> See Project</button> </div>
                        </div>
                      </div>
-           
+                     </div>
+        </div>   
 </section>
 
 <section class="about">
-  <div class= "about-div">
+ 
   <header class="about-header">
       <h2>About me</h2>
       <h4> I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
@@ -159,54 +164,57 @@
       </h4>
           <button class="resume-btn btn-anime" type="button">Get My Resume</button>
   </header>
-</div>
-
-
+<div class="grid-container">
+<div class="flex-wrapper">
       <div class="flex-item">
           <div class="about-me-img"> </div>
-          <div class="about-me-details about-h2">
+          <div class="about-me-details">
               <h2>Languages</h2>
               <ul>
-                  <li id="j">JavaScript</li>
-                  <li id="r">Ruby</li>
-                  <li id="h">Html</li>
-                  <li id="c">Css</li>
+                  <li>JavaScript</li>
+                  <li>Ruby</li>
+                  <li>Html</li>
+                  <li>Css</li>
               </ul>
           </div>
           </div>
           <div class="flex-item">
           <div class="about-me-img2"> </div>
-          <div class="about-me-frameworks about-h2">
+          <div class="about-me-details">
               <h2>Frameworks</h2>
-              <ul id="ul-1">
-                  <li id="b">Bootstrap</li>
-                  <li id="r-on-rails">Ruby on rails</li>
-                  <li id="r-spec">RSpec</li>
+              <ul>
+                  <li>Bootstrap</li>
+                  <li>Ruby on rails</li>
+                  <li>RSpec</li>
                 </ul>
-                <ul id="ul-2">
-                  <li id="cap">Capybara</li>
-                  <li id="sele">Selenium</li>
+                <ul class="cap">
+                  <li>Capybara</li>
+                  <li>Selenium</li>
               </ul>
           </div>
           </div>
           <div class="flex-item">
           <div class="about-me-img3"> </div>
-          <div class="about-me-skills about-h2">
+          <div class="about-me-details">
               <h2>Skills</h2>
-              <ul id="ul3">
-                  <li id="codekit">Codekit</li>
-                  <li id="github">Github</li>
-                  <li id="codepen">Codepen</li>
-                  <li id="gitlab">Gitlab</li>
+              <ul>
+                  <li>Codekit</li>
+                  <li>Github</li>
+                  <li>Codepen</li>
+                  <li>Gitlab</li>
                 </ul>
-                <ul id="ul-4">
-                  <li id="terminal">Terminal</li>
+                <ul>
+                  <li>Terminal</li>
               </ul>
           </div>
           </div>
+          </div>
+          </div>
         </section>
-         </div> 
+     
          <section class="contact-section">
+             
+                 <div class="flex-wrapper">
             <header class="contact-header">
                 <h2>
                     I'm always interested in hearing about new projects,
@@ -221,36 +229,36 @@
                     <button class="contact-btn btn-anime" type="submit">Get in touch</button>
                 </form>
             </div>
-             <div class="socials2">
-                <ul class="socials">
-                    <li>
-                        <a href="https://twitter.com/precious_akams">
-                        <img src="icons/twitter.png" alt="twitter_link">
-                     </a>
-                     </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/onyeagoziri-akams/">
-                        <img src="icons/Linkedin.png" alt="linkedin_link">
-                     </a>
-                    </li>
-                    <li>
-                     <a href="https://medium.com/@kamzzytech">
-                         <img src="icons/medium.png" alt="medium_link">
-                      </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/kamzzy">
-                        <img src="icons/github.png" alt="github_link">
-                     </a>
-                     </li>
-                    <li>
-                        <a href="https://angel.co/u/onyeagoziri-akams">
-                        <img src="icons/angellist.png" alt="angellist_link">
-                     </a>
-                     </li> 
-                 </ul>
             </div>
         </section>
+        <ul class="socials social2">
+            <li>
+                <a href="https://twitter.com/precious_akams">
+                <img src="icons/twitter.png" alt="twitter_link">
+             </a>
+             </li>
+            <li>
+                <a href="https://www.linkedin.com/in/onyeagoziri-akams/">
+                <img src="icons/Linkedin.png" alt="linkedin_link">
+             </a>
+            </li>
+            <li>
+             <a href="https://medium.com/@kamzzytech">
+                 <img src="icons/medium.png" alt="medium_link">
+              </a>
+            </li>
+            <li>
+                <a href="https://github.com/kamzzy">
+                <img src="icons/github.png" alt="github_link">
+             </a>
+             </li>
+            <li>
+                <a href="https://angel.co/u/onyeagoziri-akams">
+                <img src="icons/angellist.png" alt="angellist_link">
+             </a>
+             </li> 
+         </ul>
+
         <div class="mailto">
         <a id="mailto" href="mailto:preciousakams@yahoo.com">preciousakams@yahoo.com</a>
     </div>
