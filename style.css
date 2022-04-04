@@ -4,7 +4,7 @@
 }
 
 .headline {
-  background: url(/icons/header-illsutration-mobile@2x.png) no-repeat;
+  background: url(/icons/header-illsutration-mobile.png) no-repeat;
   background-size: 100% 668px;
   display: flex;
   flex-direction: column;
@@ -249,7 +249,7 @@
   width: auto;
   background:
     url(/icons/illustration\ 1-\ about\ me-top-right.png) top right no-repeat,
-    url(/icons/Frame-bottom-left.png) bottom left no-repeat;
+    url(/icons/frame-bottom-left.png) bottom left no-repeat;
 }
 
 .about-header h2 {
@@ -364,7 +364,7 @@
   align-items: center;
   width: auto;
   margin: 12px 0;
-  background: url(/icons/Frame.png) right bottom no-repeat;
+  background: url(/icons/frame.png) right bottom no-repeat;
 }
 
 .contact-header h2 {
@@ -498,7 +498,7 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    background: url(/icons/Header-llustration-desktop.png) no-repeat;
+    background: url(/icons/header-llustration-desktop.png) no-repeat;
     background-size: contain;
   }
 
@@ -571,7 +571,7 @@
 
   .about-header {
     background:
-      url(/icons/Frame-desktop.png) top right no-repeat,
+      url(/icons/frame-desktop.png) top right no-repeat,
       url(/icons/illustration-about-me-2-desktop.png) bottom left no-repeat;
   }
 
@@ -593,9 +593,9 @@
 
   .contact-section {
     background:
-      url(/icons/Frame@2x.png) no-repeat,
+      url(/icons/frame2.png) no-repeat,
       url(/icons/illustration-2-contact-form-desktop.png)  bottom no-repeat,
-      url(/icons/Frame-contact.png) left bottom no-repeat;
+      url(/icons/frame-contact.png) left bottom no-repeat;
     background-size: 316px 450px, 130px 105px, 236px 261.09px;
     background-position: right bottom, 20% bottom, left bottom;
     padding-bottom: 280px;
