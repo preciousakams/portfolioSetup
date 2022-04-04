@@ -18,6 +18,13 @@
   width: auto;
   padding: 0;
   margin: 0;
+  transition: all 0.5s ease-out;
+}
+
+.navItems a:hover,
+.navItems a:focus {
+  background-color: #36b37f;
+  color: #fff;
 }
 
 .navItems .logo {
@@ -440,6 +447,13 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
+  transition: width 1s, height 1s, background-color 1s, transform 1s;
+}
+
+.contact-btn:hover {
+  color: #36b37f;
+  border: solid 2px #36b37f;
+  transform: rotate(360deg);
 }
 
 .social2 {
