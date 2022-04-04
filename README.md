@@ -1,5 +1,6 @@
 # Portfolio: setup and mobile version skeleton Project
 ***
+## Deployed version: https://kamzzy.github.io/portfolioSetup/ 
 ## Built With
 * HTML/CSS
 * Node Js
