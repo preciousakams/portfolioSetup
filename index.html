@@ -56,7 +56,7 @@
                 </a>
                 </li> 
             </ul>
-           <a class="angle-down" href=""><img src="icons/disabled.png" alt=""></a>
+           <a class="angle-down" href=""><img src="icons/disabled.png" alt="angle-down-link"></a>
        </section>
        
        <section class="recent-work">
@@ -223,11 +223,15 @@
             </header>
             <div class="contact-form">
                 <form action="https://formspree.io/f/mvolbpag" method="post">
-                    <input type="text" name="fullname" id="fullname" maxlength="30" placeholder="Full name" required>
-                    <input type="email" name="email" id="email" placeholder="Email address" required>
-                    <textarea name="message" id="textarea" maxlength="500" placeholder="Enter text here" required></textarea>
+                   <label for="fullname"> Fullname:<input type="text" name="fullname" id="fullname" maxlength="30" placeholder="Full name" required>
+                    </label>
+                   <label for="email">Emails: <input type="email" name="email" id="email" placeholder="Email address" required>
+                    </label>
+                    <label for="textarea">  Messages:<textarea name="message" id="textarea" maxlength="500" placeholder="Enter text here" required></textarea>
+                  </label>
                     <button class="contact-btn btn-anime" type="submit">Get in touch</button>
                 </form>
+               
             </div>
             </div>
         </section>

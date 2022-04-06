@@ -23,7 +23,7 @@
 
 .navItems a:hover,
 .navItems a:focus {
-  background-color: #36b37f;
+  background-color: #277f5a;
   color: #fff;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .green {
-  color: #36b37e;
+  color: #277f5a;
 }
 
 .headline_text {
@@ -209,7 +209,7 @@
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #3a4a42;
+  color: #257456;
 }
 
 .btn-div {
@@ -230,7 +230,7 @@
   width: 122px;
   height: 48px;
   left: calc(50% - 122px / 2 + 0.5px);
-  background: #36b37f;
+  background: #277f5a;
   border-radius: 4px;
   border: 0;
   font-family: 'Inter', serif, sans-serif;
@@ -289,7 +289,7 @@
   flex-direction: row;
   padding: 12px;
   color: #fff;
-  background: #36b37f;
+  background: #277f5a;
   border: 0;
   border-radius: 4px;
   margin: 12px;
@@ -335,7 +335,7 @@
 }
 
 .about-me-details ul li {
-  color: #36b37e;
+  color: #277f5a;
   background-color: #fff;
 }
 
@@ -344,7 +344,7 @@
 }
 
 .btn-anime:hover {
-  background-color: #36b37f;
+  background-color: #277f5a;
   cursor: pointer;
 }
 
@@ -434,7 +434,7 @@
   align-items: center;
   width: 129px;
   height: 48px;
-  background: #36b37f;
+  background: #277f5a;
   border-radius: 4px;
   border: 0;
   margin: 0 0 0 99px;
@@ -451,8 +451,8 @@
 }
 
 .contact-btn:hover {
-  color: #36b37f;
-  border: solid 2px #36b37f;
+  color: #277f5a;
+  border: solid 2px #277f5a;
   transform: rotate(360deg);
 }
 
