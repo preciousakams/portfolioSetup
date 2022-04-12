@@ -14,10 +14,16 @@
        <header>
            <nav class="navItems">
             <a class="logo" href="">Welcome</a>
-            <a class="bars"> <i class="fa-solid fa-bars"></i> </a>
-            <a class="port-nav" href="">Portfolio</a>
-            <a class="about-nav" href="">About</a>
-            <a class="contact-nav" href="">Contact</a>
+           <ul class="nav-menu">
+            <li><a class="port-nav nav-link" href="#portfolio">Portfolio</a></li>
+            <li><a class="about-nav nav-link" href="#about">About</a></li>
+            <li><a class="contact-nav nav-link" href="#contact">Contact</a></li>
+            </ul>
+        <div class="bars">
+            <span class="bar-span"></span>
+            <span class="bar-span"></span>
+            <span class="bar-span"></span>
+        </div>
         </nav>
        </header>
        
@@ -59,7 +65,7 @@
            <a class="angle-down" href=""><img src="icons/disabled.png" alt="angle-down-link"></a>
        </section>
        
-       <section class="recent-work">
+       <section class="recent-work" id="portfolio">
            <h2 id="recent-work-caption">My Recent <br>Works</h2>
            <img id="indicator" src="icons/indicator.png" alt="indicator line">
            <div class="grid-container">
@@ -155,7 +161,7 @@
         </div>   
 </section>
 
-<section class="about">
+<section class="about" id="about">
  
   <header class="about-header">
       <h2>About me</h2>
@@ -212,7 +218,7 @@
           </div>
         </section>
      
-         <section class="contact-section">
+         <section class="contact-section" id="contact">
              
                  <div class="flex-wrapper">
             <header class="contact-header">
@@ -269,5 +275,6 @@
         <a id="mailto" href="mailto:preciousakams@yahoo.com">preciousakams@yahoo.com</a>
     </div>
     </main>
+    <script src="./index.js"></script>
 </body>
 </html>
