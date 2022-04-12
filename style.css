@@ -15,7 +15,7 @@
 .nav-menu {
   margin-top: 0;
   flex-direction: column;
-  width: 100%;
+  width: auto;
   transition: 0.3s;
   font-family: 'Inter', sans-serif;
   font-style: normal;
