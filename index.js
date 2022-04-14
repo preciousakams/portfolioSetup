@@ -15,6 +15,8 @@ const portfolio = [{
   css: 'Css',
   Js: 'JavaScript',
   html: 'Html',
+  livelink: 'https://kamzzy.github.io/portfolioSetup/',
+  sourcelink: 'https://github.com/kamzzy/portfolioSetup',
 },
 {
   name: 'Multi-Post Stories',
@@ -23,6 +25,8 @@ const portfolio = [{
   css: 'Css',
   Js: 'JavaScript',
   html: 'Html',
+  livelink: 'https://kamzzy.github.io/portfolioSetup/',
+  sourcelink: 'https://github.com/kamzzy/portfolioSetup',
 },
 {
   name: 'Multi-Post Stories',
@@ -31,6 +35,8 @@ const portfolio = [{
   css: 'Css',
   Js: 'JavaScript',
   html: 'Html',
+  livelink: 'https://kamzzy.github.io/portfolioSetup/',
+  sourcelink: 'https://github.com/kamzzy/portfolioSetup',
 },
 {
   name: 'Multi-Post Stories',
@@ -39,6 +45,8 @@ const portfolio = [{
   css: 'Css',
   Js: 'JavaScript',
   html: 'Html',
+  livelink: 'https://kamzzy.github.io/portfolioSetup/',
+  sourcelink: 'https://github.com/kamzzy/portfolioSetup',
 },
 {
   name: 'Multi-Post Stories',
@@ -47,6 +55,8 @@ const portfolio = [{
   css: 'Css',
   Js: 'JavaScript',
   html: 'Html',
+  livelink: 'https://kamzzy.github.io/portfolioSetup/',
+  sourcelink: 'https://github.com/kamzzy/portfolioSetup',
 },
 {
   name: 'Multi-Post Stories',
@@ -55,9 +65,10 @@ const portfolio = [{
   css: 'Css',
   Js: 'JavaScript',
   html: 'Html',
+  livelink: 'https://kamzzy.github.io/portfolioSetup/',
+  sourcelink: 'https://github.com/kamzzy/portfolioSetup',
 },
 ];
-// const pro = portfolio[0];
 const portfolioCard = (pro) => {
   const flexitem = document.createElement('div');
   flexitem.classList = 'flex-item';

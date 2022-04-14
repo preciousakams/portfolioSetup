@@ -624,6 +624,12 @@
     padding-left: 12px;
   }
 
+  .closeBtn {
+    border: 0;
+    background: none;
+    margin: 0 0 0 95%;
+  }
+
   .desk-pop-sec {
     display: none;
   }
@@ -852,5 +858,10 @@
     background: #ebecf0;
     border-radius: 8px;
     margin: 0 8px 24px 0;
+  }
+
+  .closeBtn {
+    border: 0;
+    margin: 0 0 12px 95%;
   }
 }
