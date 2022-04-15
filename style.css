@@ -864,4 +864,33 @@
     border: 0;
     margin: 0 0 12px 95%;
   }
+  
+  mobile-pop-list {
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+  }
+
+  .mobile-pop-link {
+    display: none;
+  }
+
+  .desk-pop-link {
+    justify-content: space-evenly;
+    width: 100%;
+    display: flex;
+    padding: 4px;
+    background: #ebecf0;
+    border-radius: 8px;
+  }
+
+  .closeBtn {
+    border: 0;
+    margin: 0 0 12px 95%;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background: #ebecf0;
+    color: black;
+  }
+
 }
