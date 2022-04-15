@@ -99,8 +99,11 @@ const portfolioCard = (pro) => {
   const btndiv = document.createElement('div');
   btndiv.classList = 'btn-div';
   const btn = document.createElement('button');
-  btn.classList = 'recent-btn btn-anime';
+  btn.classList = 'recent-btn btn-anime desk-recent';
   btn.innerHTML = 'See Project';
+  btn.setAttribute('data-bs-toggle', 'modal');
+  btn.setAttribute('type', 'button');
+  btn.setAttribute('data-bs-target', '#myModal');
   const flexwrapper = document.querySelector('.flex-wrapper');
   flexwrapper.append(flexitem);
   flexitem.append(projectimage);
