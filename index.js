@@ -119,3 +119,22 @@ const portfolioCard = (pro) => {
   btndiv.append(btn);
 };
 portfolio.forEach((pro) => portfolioCard(pro));
+
+function validate() {
+  const contactForm = document.getElementById('contactForm');
+  const email = document.getElementById('email').value;
+  const text = document.getElementById('text');
+  const pattern = /^[a-z]\w+@[a-z_]+?\.[a-z]{2,3}$/;
+  if (email.match(pattern)) {
+    contactForm.classList.add('valid');
+    contactForm.classList.remove('invalid');
+    text.innerHTML = 'Your email is valid';
+    text.style.color = '#00ff00';
+  } else {
+    contactForm.classList.remove('valid');
+    contactForm.classList.add('invalid');
+    text.innerHTML = 'Your email is invalid';
+    text.style.color = '#ff0000';
+  }
+}
+validate();
