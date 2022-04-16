@@ -1,3 +1,4 @@
+/* eslint-disable no-alert */
 const bars = document.querySelector('.bars');
 const navMenu = document.querySelector('.nav-menu');
 bars.addEventListener('click', () => {
@@ -143,4 +144,11 @@ function validate() {
   }
 }
 validate();
-// /////////////////////////////////
+document.getElementById('contactForm').addEventListener('submit', (event) => {
+  const email = document.getElementById('email').value;
+  const pattern = /^[a-z]+@[a-z_]+.[a-z]/;
+  if (!email.match(pattern)) {
+    event.preventDefault();
+    alert('Please enter valid user details');
+  }
+});
