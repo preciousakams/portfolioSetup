@@ -148,12 +148,12 @@
                    <input type="text" name="fullname" id="fullname" maxlength="30" placeholder="Full name" required>
                   
                    
-                   <input type="email" name="email" onkeydown="validate()" id="email" placeholder="Email address" required>
+                   <input type="email" name="email" oninput="validate()" id="email" placeholder="Email address" required>
                     <span id="text"></span>
                    
                     <textarea name="message" id="textarea" maxlength="500" placeholder="Enter text here" required></textarea>
                
-                    <button class="contact-btn btn-anime" type="submit">Get in touch</button>
+                    <button class="contact-btn btn-anime" type="submit" onsubmit="formValidation()">Get in touch</button>
                 </form>
                
             </div>
