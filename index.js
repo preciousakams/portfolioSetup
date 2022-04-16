@@ -143,7 +143,6 @@ function validate() {
     text.innerHTML = '';
   }
 }
-<<<<<<< HEAD
 validate();
 document.getElementById('contactForm').addEventListener('submit', (event) => {
   const email = document.getElementById('email').value;
@@ -153,6 +152,3 @@ document.getElementById('contactForm').addEventListener('submit', (event) => {
     alert('Please enter valid user details');
   }
 });
-=======
-validate();
->>>>>>> parent of 99de6d9 (.)
