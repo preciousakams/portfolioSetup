@@ -124,7 +124,7 @@ function validate() {
   const contactForm = document.getElementById('contactForm');
   const email = document.getElementById('email').value;
   const text = document.getElementById('text');
-  const pattern = /^[a-z]\w+@[a-z_]+?\.[a-z]{2,3}$/;
+  const pattern = /^[a-z]+@[a-z_]+.[a-z]/;
   if (email.match(pattern)) {
     contactForm.classList.add('valid');
     contactForm.classList.remove('invalid');
@@ -135,6 +135,11 @@ function validate() {
     contactForm.classList.add('invalid');
     text.innerHTML = 'Your email is invalid';
     text.style.color = '#ff0000';
+  }
+  if (email === '') {
+    contactForm.classList.remove('valid');
+    contactForm.classList.remove('invalid');
+    text.innerHTML = '';
   }
 }
 validate();
