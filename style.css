@@ -743,7 +743,11 @@
 
   .contact-form {
     align-content: flex-end;
-    padding: 0 48px 48px 0;
+    width: 450px;
+  }
+
+  .contact-form label {
+    float: left;
   }
 
   .contact-header h2 {
@@ -893,4 +897,11 @@
     background: #ebecf0;
     color: black;
   }
+}
+
+#text {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
 }

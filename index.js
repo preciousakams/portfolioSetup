@@ -1,3 +1,4 @@
+/* eslint-disable no-alert */
 const bars = document.querySelector('.bars');
 const navMenu = document.querySelector('.nav-menu');
 bars.addEventListener('click', () => {
@@ -119,3 +120,35 @@ const portfolioCard = (pro) => {
   btndiv.append(btn);
 };
 portfolio.forEach((pro) => portfolioCard(pro));
+
+function validate() {
+  const contactForm = document.getElementById('contactForm');
+  const email = document.getElementById('email').value;
+  const text = document.getElementById('text');
+  const pattern = /^[a-z]+@[a-z_]+.[a-z]/;
+  if (email.match(pattern)) {
+    contactForm.classList.add('valid');
+    contactForm.classList.remove('invalid');
+    text.innerHTML = 'Your email is valid';
+    text.style.color = '#00ff00';
+  } else {
+    contactForm.classList.remove('valid');
+    contactForm.classList.add('invalid');
+    text.innerHTML = 'Your email is invalid';
+    text.style.color = '#ff0000';
+  }
+  if (email === '') {
+    contactForm.classList.remove('valid');
+    contactForm.classList.remove('invalid');
+    text.innerHTML = '';
+  }
+}
+validate();
+document.getElementById('contactForm').addEventListener('submit', (event) => {
+  const email = document.getElementById('email').value;
+  const pattern = /^[a-z]+@[a-z_]+.[a-z]/;
+  if (!email.match(pattern)) {
+    event.preventDefault();
+    alert('Please enter valid user details');
+  }
+});
