@@ -448,9 +448,9 @@
 }
 
 .contact-btn:hover {
-  color: #277f5a;
   border: solid 2px #277f5a;
   transform: rotate(360deg);
+  color: #fff;
 }
 
 .social2 {
