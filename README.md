@@ -1,9 +1,11 @@
-# Portfolio: setup and mobile version skeleton Project
-***
-## Deployed version: https://kamzzy.github.io/portfolioSetup/ 
+# Portfolio
+A multi-purpose portfolio web applicaion
+
+## Deployed version: [https://kamzzy.github.io/portfolioSetup/](https://kamzzy.github.io/portfolioSetup/) 
+
 ## Built With
 * HTML/CSS
-* Node Js
+* Javasrcipt
 
 ## Getting Started
 ***
@@ -14,7 +16,7 @@ Run `npm install`
 ### Prerequisites
 * Node.JS
 
-### Authors
+### Author
 ***
 👤 Onyeagoziri Precious Akams
 
