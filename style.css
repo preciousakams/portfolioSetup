@@ -160,9 +160,12 @@
 
 .project-image-div {
   display: flex;
-  padding: 16px;
   height: 254px;
   border-radius: 8px;
+}
+
+.projectimg {
+  width: 381px;
 }
 
 .project-div {
@@ -499,6 +502,10 @@
   height: 220px;
   background: url(./icons/Snapshoot\ Portfoliomobile.svg) no-repeat;
   background-size: cover;
+}
+
+.popImg {
+  width: 700px;
 }
 
 .mobile-pop-header {
