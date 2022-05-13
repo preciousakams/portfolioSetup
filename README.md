@@ -1,7 +1,7 @@
 # Portfolio
 A multi-purpose portfolio web applicaion
 
-## Deployed version: [https://kamzzy.github.io/portfolioSetup/](https://kamzzy.github.io/portfolioSetup/) 
+## Demo version: [https://kamzzy.github.io/portfolioSetup/](https://kamzzy.github.io/portfolioSetup/) 
 
 ## Built With
 * HTML/CSS
